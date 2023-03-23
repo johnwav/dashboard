@@ -81,3 +81,17 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
+.content {
+  margin: auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  /* uncooment align items and make mtop -4rem */
+  margin-top: -4rem;
+}
+
+.content>div{
+  width: 100%;
+  min-width: 75vh;
+}
