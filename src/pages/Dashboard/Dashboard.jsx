@@ -36,14 +36,10 @@ const Dashboard = () => {
           </div>
         </div>
 
-      
         <Statistics />
-
       </div>
 
-
-
-        <Orders />
+      <Orders />
     </div>
   );
 };

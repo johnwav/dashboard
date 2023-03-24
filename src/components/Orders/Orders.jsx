@@ -2,6 +2,7 @@ import React from 'react'
 import { groupNumber, ordersData } from '../../data'
 // import OrdersPieChart from '../OrdersPieChart/OrdersPieChart'
 import css from './Orders.module.css'
+import OrdersPieChart from '../OrdersPieChart/OrdersPieChart'
 
 const Orders = () => {
     return (
@@ -34,10 +35,10 @@ const Orders = () => {
             </div>
 
 
-            {/* <div className={css.orderChart}>
+            <div className={css.orderChart}>
                 <span>Split by orders</span>
                 <OrdersPieChart/>
-            </div> */}
+            </div>
         </div>
     )
 }
